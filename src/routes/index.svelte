@@ -110,7 +110,10 @@
 		<div class="item">
 			<div class="parent">
 				<div class="item last">
-					<img id="pcBuildImg" src="/assets/pc-build.png" />
+					<img
+						id="pcBuildImg"
+						src="https://acbdtllvcaqjcjkbsffp.supabase.co/storage/v1/object/sign/bucket/default-imgs/pc-build.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJidWNrZXQvZGVmYXVsdC1pbWdzL3BjLWJ1aWxkLnBuZyIsImlhdCI6MTY1MzM5Mjk1OSwiZXhwIjoxOTY4NzUyOTU5fQ.ESJ0SUY7JOBBWONIgCK2l-85-mniVDE8AuM_OJXfmB8"
+					/>
 					<h1>Computadora mejor Calificada</h1>
 					<h2>Felicidades $user</h2>
 				</div>
@@ -118,7 +121,10 @@
 				<div class="item">
 					<article class="my-card3">
 						<div class="my-cards">
-							<img id="images" src="../assets/community4.png" />
+							<img
+								id="images"
+								src="https://acbdtllvcaqjcjkbsffp.supabase.co/storage/v1/object/sign/bucket/default-imgs/community4.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJidWNrZXQvZGVmYXVsdC1pbWdzL2NvbW11bml0eTQucG5nIiwiaWF0IjoxNjUzMzkyOTczLCJleHAiOjE5Njg3NTI5NzN9.lEWtj6SbesDNW9yaMZ42ljur8bhgnJEdGqwS1Z1J5Po"
+							/>
 							<h3 class="my-card-titles">$Rainbow NXZT build</h3>
 							<p class="my-card-text">AMD RYZEN 7 3700X RTX 2060TI</p>
 						</div>
@@ -131,14 +137,20 @@
 			<section class="wrapped-cards">
 				<div class="my-card1">
 					<div class="my-cards">
-						<img id="images" src="../assets/community3.png" />
+						<img
+							id="images"
+							src="https://acbdtllvcaqjcjkbsffp.supabase.co/storage/v1/object/sign/bucket/default-imgs/community3.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJidWNrZXQvZGVmYXVsdC1pbWdzL2NvbW11bml0eTMucG5nIiwiaWF0IjoxNjUzMzkyOTM1LCJleHAiOjE5Njg3NTI5MzV9.eX3m4KRkDA9_4h-v_LWAR7s9YAwhPd1yuc552CzH0WA"
+						/>
 						<h3 class="my-card-titles">RAZER GREEN BUILD</h3>
 						<p class="my-card-text">I9-9900X RTX 2080</p>
 					</div>
 				</div>
 				<article class="my-card2">
 					<div class="my-cards">
-						<img id="images" src="../assets/community1.png" />
+						<img
+							id="images"
+							src="https://acbdtllvcaqjcjkbsffp.supabase.co/storage/v1/object/sign/bucket/default-imgs/community1.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJidWNrZXQvZGVmYXVsdC1pbWdzL2NvbW11bml0eTEucG5nIiwiaWF0IjoxNjUzMzkyOTE1LCJleHAiOjE5Njg3NTI5MTV9.EQS4zrMIUBo3XySykKcYZqXCRD_4FhGjFrGRgbgMei8"
+						/>
 						<h3 class="my-card-titles">BUDGET LEAGUE OF LEGENDS BUILD</h3>
 						<p class="my-card-text">I7-7700K RTX 2070</p>
 					</div>
@@ -147,6 +159,12 @@
 		</div>
 	</div>
 </div>
+
+<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+	<div class="container text-center">
+		<small>Copyright &copy; PCPMEX</small>
+	</div>
+</footer>
 
 <style lang="scss">
 	body {
@@ -158,7 +176,9 @@
 		justify-content: center;
 		align-items: center;
 	}
-
+	#page-content {
+		flex: 1 0 auto;
+	}
 	.container {
 		display: flex;
 		justify-content: center;
