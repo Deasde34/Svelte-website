@@ -31,17 +31,6 @@
 		return cart.includes(id);
 	}
 
-	function sortAZ() {
-		products.sort((a: any, b: any) => {
-			if (a.title < b.title) {
-				return -1;
-			}
-			if (a.title > b.title) {
-				return 1;
-			}
-			return 0;
-		});
-	}
 </script>
 
 <div class="row mt-3">
